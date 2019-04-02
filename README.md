@@ -15,6 +15,10 @@ or
 # Run Coverate test
 ``` python -m pytest --cov=. tests/ ```
 
+# Run tests distributed/parallel
+
+``` python -m pytest --cov=. tests/ -n 4 ```
+
 # Generate pytest-bdd py structure from feature
 - Generate feature
 [Pytest-bdd documentation](https://pypi.org/project/pytest-bdd/)
