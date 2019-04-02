@@ -1,8 +1,13 @@
 # Run all tests
 ``` python -m pytest tests ```
 
+or
+
+``` PYTHONPATH=$PYTHONPATH:$(pwd) pytest ```
+
+
 # Run unit tests
-``` python -m pytest tests/unit ```
+``` python -m pytest tests/unit/ ```
 
 # Run functional tests
 ``` python -m pytest tests/functional/ ```
