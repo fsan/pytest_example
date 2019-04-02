@@ -24,6 +24,9 @@ or
 # Run with all options
 ``` python -m pytest --cov=. tests/ -n 4 --picked ```
 
+# Run with benchmark
+``` python -m pytest --benchmark-compare ```
+
 # Generate pytest-bdd py structure from feature
 - Generate feature
 [Pytest-bdd documentation](https://pypi.org/project/pytest-bdd/)
