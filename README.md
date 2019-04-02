@@ -16,8 +16,13 @@ or
 ``` python -m pytest --cov=. tests/ ```
 
 # Run tests distributed/parallel
-
 ``` python -m pytest --cov=. tests/ -n 4 ```
+
+# Run only modified tests but not commited to git 
+``` python -m pytest --picked ```
+
+# Run with all options
+``` python -m pytest --cov=. tests/ -n 4 --picked ```
 
 # Generate pytest-bdd py structure from feature
 - Generate feature
