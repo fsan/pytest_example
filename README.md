@@ -12,6 +12,9 @@ or
 # Run functional tests
 ``` python -m pytest tests/functional/ ```
 
+# Run Coverate test
+``` python -m pytest --cov=. tests/ ```
+
 # Generate pytest-bdd py structure from feature
 - Generate feature
 [Pytest-bdd documentation](https://pypi.org/project/pytest-bdd/)
