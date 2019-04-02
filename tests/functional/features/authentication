@@ -1,0 +1,8 @@
+Scenario: valid authentication
+Given I am root user
+And Password is root
+
+When I try to authenticate
+
+Then I should get return as True
+
