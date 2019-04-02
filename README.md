@@ -27,6 +27,10 @@ or
 # Run with benchmark
 ``` python -m pytest --benchmark-compare ```
 
+# Run flakes (pep8 linter)
+
+``` pyflakes . ```
+
 # Generate pytest-bdd py structure from feature
 - Generate feature
 [Pytest-bdd documentation](https://pypi.org/project/pytest-bdd/)

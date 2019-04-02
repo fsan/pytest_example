@@ -1,5 +1,5 @@
 from utils.memoize import Memoize
-from utils.passwords import hashed_password, authenticate
+from utils.passwords import authenticate
 
 def hello_world():
 	return "hello_world"
